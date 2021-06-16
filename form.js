@@ -11,15 +11,13 @@ result.onclick = function() {
             "Your birth date is" + " " +
             age + " and you select " +
             selectcourse + " course. " + "Your contact NO. is " + number + " with email " + email + ".")
-    }
-    if (selectcourse === "bsit") {
+    } else if (selectcourse === "bsit") {
         alert("Your name is" + " " +
             name + ". " +
             "Your birth date is" + " " +
             age + " and you select " +
             selectcourse + " course. " + "Your contact NO. is " + number + " with email " + email + ".")
-    }
-    if (name || age || selectcourse || number || email === "") {
+    } else {
         alert("Please enter your data.");
 
     }
